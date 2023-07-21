@@ -1,3 +1,22 @@
+
+class listNode {
+  constructor(value) {
+    this.value = value; 
+    this.next = null;
+  }
+}
+
+function search(head, value) {
+  if (head === null) {
+    return false;
+  }
+  if (head.value === value) 
+}
+
+
+
+
+
 class listNode {
   constructor(value) {
     this.value = value;
@@ -24,3 +43,5 @@ head.next.next = new listNode(9);
 console.log(search(head, 3)); // true
 console.log(search(head, 0)); // false
 console.log(search(head, 9)); // true
+
+
